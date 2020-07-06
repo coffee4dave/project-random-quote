@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .masthead {
+            height: 100vh;
+            min-height: 500px;
+            background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        button {
+            border: none;
+            font-size: 1.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 15px;
+        }
+
+        h4 {
+            text-align: right;
+            color: #3C8838;
+        }
+
+        #quote-container {
+            background-color: #8CC489;
+            padding: 2rem 2rem;
+            border-radius: 15px;
+        }
+
+        #icon-quote {
+            height: 1rem;
+            vertical-align: 0.5rem;
+        }
+
+        #quote {
+            font-size: 1.2rem;
+        }
+    </style>
+    <link rel="icon" href="data:,">
+    <title>Random Quotes Project</title>
+</head>
+
+<body>
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-8 text-center" id="quote-container">
+                    <button id="quote-btn" class="btn-success">Generate Quote</button>
+                    <blockquote class="my-3"> <span><svg id="icon-quote" aria-hidden="true" data-prefix="fas" data-icon="quote-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
+                            </svg></span> <span id="quote"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae at cupiditate, dignissimos consectetur impedit similique.</span></blockquote>
+                    <h4 id="name">Anonymous</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
